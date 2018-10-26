@@ -3,7 +3,7 @@ const SampleComponent = ({location}) => {
     return(
         <div>
             <h2>I am a sample component</h2>
-            <p>Sample props: {location.query.slug}</p>
+            <p>Sample props: {location.query._id}</p>
         </div>
     )
 };

@@ -10,16 +10,16 @@ class App extends Component {
                 <h2>Accounts</h2>
                 <ul>
                     <li>
-                        <Link to={{ pathname: `/1`, query: { slug: 'some-1', _id: 12 } }}>1</Link>
+                        <Link to={{ pathname: `/yabbhar`, query: { _id: 12 } }}>yabbhar</Link>
                     </li>
                     <li>
-                        <Link to={{ pathname: `/2`, query: { slug: 'some-2', _id: 12 } }}>2</Link>
+                        <Link to={{ pathname: `/dhabbar`, query: { _id: 13 } }}>dhabbar</Link>
                     </li>
                     <li>
-                        <Link to={{ pathname: `/3`, query: { slug: 'some-3', _id: 12 } }}>3</Link>
+                        <Link to={{ pathname: `/lagghar`, query: { _id: 14 } }}>lagghar</Link>
                     </li>
                     <li>
-                        <Link to={{ pathname: `/4`, query: { slug: 'some-4', _id: 12 } }}>4</Link>
+                        <Link to={{ pathname: `/BC`, query: { _id: 15 } }}>BC</Link>
                     </li>
                 </ul>
 
